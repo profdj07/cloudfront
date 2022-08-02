@@ -1,6 +1,6 @@
 #!/bin/bash
 # Purpose: Cloudfront Static WebSite
-# Maintainer: Muhammad Asim
+# Maintainer: Dev Jadeja
 
 BUCKET_NAME=`terraform output | grep -i bucket-name | awk '{print $3}'`
 
